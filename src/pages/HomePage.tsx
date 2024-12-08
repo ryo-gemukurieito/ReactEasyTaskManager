@@ -3,7 +3,7 @@ import { Task } from '../types/task.ts';
 import TaskList from '../components/TaskList.tsx';
 import TaskForm from '../components/TaskForm.tsx';
 
-const HomePage: React.FC = () => {
+const HomePage: React.FC = () => {/*
   const [tasks, setTasks] = useState<Task[]>([]);
 
   const addTask = (title: string) => {
@@ -30,6 +30,6 @@ const HomePage: React.FC = () => {
       <TaskList tasks={tasks} toggleTask={toggleTask} />
     </div>
   );
-};
+*/};
 
 export default HomePage;
